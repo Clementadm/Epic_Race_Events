@@ -1,4 +1,5 @@
 namespace App.Models;
+using System.ComponentModel.DataAnnotations;
 
 public class Pilote
 {
@@ -15,7 +16,7 @@ public class Pilote
     public string name {get; set;} //(length: min 2 max: 30, requis)
 
     [Required]
-    [DataType(DataType.DateOnly)]
+    [DataType(DataType.Date)]
     public DateOnly birthday {get; set;} //(requis, type date only)
 
     [Required]
