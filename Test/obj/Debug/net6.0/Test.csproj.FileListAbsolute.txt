@@ -5,7 +5,6 @@
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Test.deps.json
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Test.runtimeconfig.json
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Test.dll
-/Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/ref/Test.dll
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Test.pdb
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll
@@ -96,3 +95,4 @@
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/obj/Debug/net6.0/ref/Test.dll
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/obj/Debug/net6.0/Test.pdb
 /Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/obj/Debug/net6.0/Test.genruntimeconfig.cache
+/Users/arnaudboyer/Documents/Projets_Ynov/Framework_web/Epic_Race_Events/Test/obj/Debug/net6.0/refint/Test.dll
