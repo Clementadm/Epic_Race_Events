@@ -9489,11 +9489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\App\\App.csproj",
+      "projectUniqueName": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\App\\App.csproj",
+      "projectPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
       "packagesPath": "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\App\\obj\\",
+      "outputPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AUGIER de MOUSSAC\\AppData\\Roaming\\NuGet\\NuGet.Config",

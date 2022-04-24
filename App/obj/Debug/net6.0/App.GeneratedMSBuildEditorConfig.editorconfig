@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = App
 build_property.RootNamespace = App
-build_property.ProjectDir = C:\Users\AUGIER de MOUSSAC\Desktop\Epic_Race_Events\App\
+build_property.ProjectDir = c:\Users\AUGIER de MOUSSAC\Desktop\Git framework Web\Epic_Race_Events\App\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\AUGIER de MOUSSAC\Desktop\Epic_Race_Events\App
+build_property.MSBuildProjectDirectory = c:\Users\AUGIER de MOUSSAC\Desktop\Git framework Web\Epic_Race_Events\App
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Home/Index.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Home/Privacy.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Races/CreateRace.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Races/CreateRace.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcQ3JlYXRlUmFjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Races/RaceList.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Races/RaceList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcUmFjZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Shared/Error.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/_ViewImports.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/_ViewStart.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Shared/_Layout.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-78367sr58w
 
-[C:/Users/AUGIER de MOUSSAC/Desktop/Epic_Race_Events/App/Views/Shared/_MyLayout.cshtml]
+[c:/Users/AUGIER de MOUSSAC/Desktop/Git framework Web/Epic_Race_Events/App/Views/Shared/_MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-h2daim7ygw

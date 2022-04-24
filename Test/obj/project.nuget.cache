@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XGfhu+2UH21x/Obov2ddV597hroUi76PiZsbvm9JAXgwNunGrYwreFpJfhbSfm/l72hOdUTYZACWhF8+XMpdbQ==",
+  "dgSpecHash": "3Ya/GovmNrXBzZgGByt6Sy/3zpKzHuY+ym4gysdB/5ax1z1vzyG/jhz7x+NqPcILJ61T60F+UhgH5ah3g6Se5A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\Test.csproj",
+  "projectFilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
