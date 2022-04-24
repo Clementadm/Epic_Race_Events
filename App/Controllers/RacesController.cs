@@ -63,13 +63,13 @@ namespace App.Controllers
                         {
                             Name = race.RaceName,
                             EventDate = race.RaceEventDate,
-                            EventBeginning = race.EventBeginning,
+                            // EventBeginning = race.EventBeginning,
                             Latitude = race.Latitude,
                             Longitude = race.Longitude,
                             MaxParticipant = race.MaxParticipant,
                             Picture = race.Picture,
                             RestrictedAge = race.RestrictedAge,
-                            Result = race.Result
+                            // Result = race.Result
                         }
                     );
                     _dbContext.SaveChanges();

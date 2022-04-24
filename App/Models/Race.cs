@@ -9,7 +9,7 @@ namespace App.Models
         public string Name { get; set; }
         public DateTime EventDate { get; set; }
 
-        public TimeSpan EventBeginning { get; set; }
+        // public TimeSpan EventBeginning { get; set; }
 
         [Required]
         public double Latitude { get; set; }
@@ -19,6 +19,6 @@ namespace App.Models
         public int MaxParticipant{ get; set; } = 15;
         public Uri? Picture { get; set; }
         public int RestrictedAge { get; set; } = 21;
-        public bool Result {get; set;}
+        // public bool Result {get; set;}
     }
 }

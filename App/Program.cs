@@ -1,6 +1,8 @@
 using App.Data;
 using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 var connectionString = "server=localhost;port=9000;user=root;password=example;database=finalProject";
@@ -48,3 +50,6 @@ using (var scope = app.Services.CreateScope())
     // TODO SEED DATA
 }
 app.Run();
+
+// docker-compose-v1.exe up --build
+// dotnet ef database drop

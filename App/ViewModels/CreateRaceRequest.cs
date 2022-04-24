@@ -13,10 +13,9 @@ namespace App.ViewModels
         [Required]
         public DateTime RaceEventDate { get; set; }
 
-
-        [DataType(DataType.Time)]
-        [Required]
-        public TimeSpan EventBeginning { get; set; }
+        // [DataType(DataType.Time)]
+        // [Required]
+        // public TimeSpan EventBeginning { get; set; }
 
         [Required]
         public double Latitude { get; set; }
@@ -31,7 +30,7 @@ namespace App.ViewModels
         public Uri? Picture { get; set; }
         [Required]
         public int RestrictedAge { get; set; } = 21;
-        [Required]
-        public bool Result {get; set;}
+        // [Required]
+        // public bool Result {get; set;}
     }
 }

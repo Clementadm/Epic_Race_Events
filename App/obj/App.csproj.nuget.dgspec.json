@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj": {}
+    "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj": {}
   },
   "projects": {
-    "D:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj": {
+    "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj",
+        "projectUniqueName": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "D:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj",
+        "projectPath": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj",
         "packagesPath": "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\",
-        "outputPath": "D:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\obj\\",
+        "outputPath": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AUGIER de MOUSSAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
