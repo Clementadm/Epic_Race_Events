@@ -1,0 +1,69 @@
+@model App.ViewModels.CreateRaceRequest
+
+@{
+    ViewData["Title"] = "CreateRace";
+}
+
+<h1>CreateRace</h1>
+
+<h4>Race</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RaceName" class="control-label"></label>
+                <input asp-for="RaceName" class="form-control" />
+                <span asp-validation-for="RaceName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RaceEventDate" class="control-label"></label>
+                <input asp-for="RaceEventDate" class="form-control" />
+                <span asp-validation-for="RaceEventDate" class="text-danger"></span>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="EventBeginning" class="control-label"></label>
+                <input asp-for="EventBeginning" class="form-control" />
+                <span asp-validation-for="EventBeginning" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="Latitude" class="control-label"></label>
+                <input asp-for="Latitude" class="form-control" />
+                <span asp-validation-for="Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Longitude" class="control-label"></label>
+                <input asp-for="Longitude" class="form-control" />
+                <span asp-validation-for="Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxParticipant" class="control-label"></label>
+                <input asp-for="MaxParticipant" class="form-control" />
+                <span asp-validation-for="MaxParticipant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Picture" class="control-label"></label>
+                <input asp-for="Picture" class="form-control" />
+                <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RestrictedAge" class="control-label"></label>
+                <input asp-for="RestrictedAge" class="form-control" />
+                <span asp-validation-for="RestrictedAge" class="text-danger"></span>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="Result" class="control-label"></label>
+                <input asp-for="Result" class="form-control" />
+                <span asp-validation-for="Result" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Back to List</a>
+</div>

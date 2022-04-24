@@ -66,77 +66,88 @@ public static class AppDbContextExtension
             id = 1,
             name = "Ferrari - F40 ",
             categories = new List<Categorie>(){superCar, italianClassic},
-            niveauDePuissance = 7
+            niveauDePuissance = 7,
+            ConstructionDate = 1987
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 2,
-            name = "Lamborghini - Huracan (2014)",
+            name = "Lamborghini - Huracan",
             categories = new List<Categorie>(){superCar},
-            niveauDePuissance = 7
+            niveauDePuissance = 7,
+            ConstructionDate = 2014
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 3,
             name = "Ford - Mustang 67’",
             categories = new List<Categorie>(){muscleCar, americanLegend},
-            niveauDePuissance = 7
+            niveauDePuissance = 7,
+            ConstructionDate = 1967
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 4,
             name = "Dodge - Charger R/T 2021",
             categories = new List<Categorie>(){muscleCar},
-            niveauDePuissance = 3
+            niveauDePuissance = 3,
+            ConstructionDate = 2021
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 5,
             name = "Dodge - Charger R/T 2021",
             categories = new List<Categorie>(){muscleCar},
-            niveauDePuissance = 5
+            niveauDePuissance = 5,
+            ConstructionDate = 2021
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 6,
             name = "Pagani - Huayra R (2018)",
             categories = new List<Categorie>(){hyperCar},
-            niveauDePuissance = 9
+            niveauDePuissance = 9,
+            ConstructionDate = 2018
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 7,
             name = "Bugatti - Chiron (2019)",
             categories = new List<Categorie>(){hyperCar},
-            niveauDePuissance = 10
+            niveauDePuissance = 10,
+            ConstructionDate = 2019
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 8,
             name = "Toyota - Supra Yakuza Edition (1995)",
             categories = new List<Categorie>(){japanRaceCar},
-            niveauDePuissance = 7
+            niveauDePuissance = 7,
+            ConstructionDate = 1995
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 9,
             name = "Honda - S2000 Racing (2009)",
             categories = new List<Categorie>(){japanRaceCar, sportCar},
-            niveauDePuissance = 6
+            niveauDePuissance = 6,
+            ConstructionDate = 2009
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 10,
-            name = "BMW E30 ‘91",
+            name = "BMW E30 '91",
             categories = new List<Categorie>(){germanClassics, sportCar},
-            niveauDePuissance = 6
+            niveauDePuissance = 6,
+            ConstructionDate = 1991
         });
         dbContext.Vehicules.Add(new Vehicule()
         {
             id = 11,
             name = "Porsche - 911 GT3 2007",
             categories = new List<Categorie>(){germanClassics, highPerformanceSportCar},
-            niveauDePuissance = 7
+            niveauDePuissance = 7,
+            ConstructionDate = 2007
         });
     }
 }

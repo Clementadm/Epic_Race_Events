@@ -7,6 +7,7 @@ namespace App.Data
 {
     public class AppDbContext : IdentityDbContext<IdentityUser>
     {
+        public DbSet<Race> Races {get; set;}
         public DbSet<Pilote> Pilotes {get; set;}
         public DbSet<Categorie> Categories { get; set; }
         public DbSet<Vehicule> Vehicules { get; set; }
