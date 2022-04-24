@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjgr9IjyHiSATt1dUFB5bmdbDCNbSu+ym0jPD29hP5TvYOtfhKcvoU/5KJenfdYzvWwujiGTxwBAnMN3l3xKcA==",
+  "dgSpecHash": "g52nTgOAnHhrI7vLEofNTL3ngosFoFJaWC7jYo64Aoi5ijfvJdkh6iMRk02sTnjS77m9nHFxLkuJv8cAYr8IkA==",
   "success": true,
-  "projectFilePath": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\App\\App.csproj",
+  "projectFilePath": "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\App\\App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

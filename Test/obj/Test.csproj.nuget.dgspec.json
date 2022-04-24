@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\Test\\Test.csproj": {}
+    "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\Test.csproj": {}
   },
   "projects": {
-    "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\Test\\Test.csproj": {
+    "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\Test\\Test.csproj",
+        "projectUniqueName": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\Test\\Test.csproj",
+        "projectPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\",
-        "outputPath": "d:\\Ynov\\B2\\Framework Web\\Dossier Final git\\Epic_Race_Events\\Test\\obj\\",
+        "outputPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Epic_Race_Events\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AUGIER de MOUSSAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
