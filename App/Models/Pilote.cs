@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 public class Pilote
 {
-    public string id {get; set;}
+    public int id {get; set;}
 
     [Required]
     [MinLength(2)]
