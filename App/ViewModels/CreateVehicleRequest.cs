@@ -5,25 +5,23 @@ namespace App.Controllers
 {
     public class CreateVehicleRequest
     {
-        [Required]
-        public VehiclesCategories VehiclesCategorie { get; set; }
+        // [Required]
+        // public VehiclesCategories VehiclesCategorie { get; set; }
         
-        [DataType(DataType.DateTime)]
+
         [Required]
-        public DateTime VehicleConstructionDate { get; set; }
+        public int id { get; set; }
         [Required]
-        public string VehicleBrand { get; set; }
+        public string name { get; set; }
         [Required]
-        public string VehicleModel { get; set; }
+        public List<Categorie> categories { get; set; }
         [Required]
-        public string VehicleHorsePower { get; set; }
+        public int niveauDePuissance { get; set; }
         [Required]
-        public Pilote VehiclePilote { get; set; }
-        [Required]
-        public Uri? VehiclePicture { get; set; }
+        public int anneeDeContruction { get; set; }
+        // [Required]
+        // public Uri? VehiclePicture { get; set; }
 
 // Des catégories (Super Car, Hyper Car, Japan Race Car, German Classics…) (requis)
-    }
-}
     }
 }

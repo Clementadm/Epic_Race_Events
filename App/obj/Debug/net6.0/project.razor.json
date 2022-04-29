@@ -16298,6 +16298,16 @@
   "RootNamespace": "App",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16308,8 +16318,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Races\\EditRace.cshtml",
+      "TargetPath": "Views\\Races\\EditRace.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16320,6 +16355,16 @@
     {
       "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Vehicules\\Details.cshtml",
+      "TargetPath": "Views\\Vehicules\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Vehicules\\Index.cshtml",
+      "TargetPath": "Views\\Vehicules\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16338,8 +16383,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {

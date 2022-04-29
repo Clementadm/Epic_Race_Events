@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,15 +25,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="Index" asp-route-raceId="123">Race List</a>
                         </li>
+                        Races/List *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="Details" asp-route-id="123" asp-route-toto="azerty">Race At Id 123</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="List">Race List</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="List" asp-route-id="1" >Race At Id 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Vehicules" asp-action="Index" >Vehicles List</a>
+                        </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="Edit" asp-route-id="1" >Edit</a>
+                        </li> *@
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="Details" asp-route-id="123" asp-route-toto="azerty">Race At Id 123</a>
+                        </li> *@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Races" asp-action="Create">Create a Race</a>
                         </li>
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>

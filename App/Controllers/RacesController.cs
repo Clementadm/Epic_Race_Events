@@ -7,6 +7,7 @@ using App.Models;
 using App.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace App.Controllers
 {
@@ -31,9 +32,7 @@ namespace App.Controllers
         }
 
         // GET: Races/Details/5
-        public ActionResult Details(int id, string toto)
-        {
-
+        public ActionResult Details(int id, Race raceDetails){
             return View();
         }
 
@@ -51,7 +50,7 @@ namespace App.Controllers
         {
             try
             {
-                if (race.RaceEventDate.DayOfWeek == DayOfWeek.Tuesday) 
+                if (race.RaceEventDate.DayOfWeek == DayOfWeek.Tuesday)
                 {
                     ModelState.AddModelError(String.Empty, "No race allowed on Tuesdays !");
                 }
@@ -89,49 +88,160 @@ namespace App.Controllers
         }
 
         // GET: Races/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
+        // public async Task<IActionResult> Edit(int? id)
+        // {
+        //     if (id == null){
+        //         return NotFound();
+        //     }
+        //     var raceFindId = await _dbContext.Races.FindAsync(id);
+        //     if (raceFindId == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     return View("EditRace");
+        // }
+
+        // GET: Races/Edit/5
+        public ActionResult Edit(int id){
+            if (id == null){
+                return NotFound();
+            }
+            var raceAtId =  _dbContext.Races.Find(id);
+            if (raceAtId == null){
+                return NotFound();
+            }
+            return View("EditRace");
         }
 
         // POST: Races/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
+        public ActionResult Edit([Bind("Id, Name, EventDate, Latitude, Longitude, MaxParticipant, RestrictedAge, Picture")] Race raceIdEdit){
+            // if (ModelState.IsValid)
+            // {
+            //     _dbContext.Races.Update(raceIdEdit).State = EntityState.Modified;
+            //     _dbContext.SaveChanges();
+            // }
+            // // return View(movie);
+            // return RedirectToAction(nameof(List));
 
-                return RedirectToAction(nameof(Index));
+            Console.WriteLine("raceedit = ", raceIdEdit.Id);
+            var race = new Race{
+                Id = raceIdEdit.Id,
+                Name = raceIdEdit.Name,
+                EventDate = raceIdEdit.EventDate,
+                Latitude = raceIdEdit.Latitude,
+                Longitude = raceIdEdit.Longitude,
+                MaxParticipant = raceIdEdit.MaxParticipant,
+                Picture = raceIdEdit.Picture,
+                RestrictedAge = raceIdEdit.RestrictedAge,
+            };
+            using (var db = _dbContext){
+                var result = db.Races.SingleOrDefault(b => b.Id == raceIdEdit.Id);
+                Console.WriteLine("azertyuiopoiuytrdxcvbnklmùmlkjtrdxcbn=)àézsrx n,lm*%M§l:kujyfdxwedfcv k;,ngcdfx pùmoijhytfesxbnnlij,gfcfhiokjgvtctyghgboikjfxwesdwx ik,nb ");
+                Console.WriteLine("id = ", result.Id);
+                if (result != null)
+                {
+                    try
+                    {
+                    db.Races.Attach(result);
+                    result = race;
+                    db.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    throw;
+                }
             }
-            catch
-            {
-                return View();
+            return RedirectToAction(nameof(List));
             }
-        }
-
-        // GET: Races/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Races/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
+
+
+
+
+
+
+
+        }
+        // public ActionResult Edit(Race raceIdEdit){
+        //     var update = new Race {
+        //         Id = raceIdEdit.Id,
+        //         Name = raceIdEdit.Name,
+        //         EventDate = raceIdEdit.EventDate,
+        //         Latitude = raceIdEdit.Latitude,
+        //         Longitude = raceIdEdit.Longitude,
+        //         MaxParticipant = raceIdEdit.MaxParticipant,
+        //         Picture = raceIdEdit.Picture,
+        //         RestrictedAge = raceIdEdit.RestrictedAge,
+        //     };
+        //     raceIdEdit = update;
+        //     _dbContext.Races.Update(raceIdEdit);
+        //     // var Name = raceIdEdit.Name;
+        //     // var EventDate = raceIdEdit.EventDate;
+        //     // var Latitude = raceIdEdit.Latitude;
+        //     // var Longitude = raceIdEdit.Longitude;
+        //     // var MaxParticipant = raceIdEdit.MaxParticipant;
+        //     // var Picture = raceIdEdit.Picture;
+        //     // var RestrictedAge = raceIdEdit.RestrictedAge;
+        //     return RedirectToAction(nameof(List));
+        //     //return View("RaceList");
+        // }
+            // if (id != race.Id)
+            // {
+            //     return NotFound();
+            // }
+
+            // if (ModelState.IsValid)
+            // {
+            //     try
+            //     // raceIdEdit = 
+            //     {
+
+                    // // TODO: Add update logic here
+                    // _dbContext.Update(race);
+                    // await _dbContext.SaveChangesAsync();
+                    // // return RedirectToAction(nameof(Index));
+        //         }
+        //         catch
+        //         {
+        //             if (!id.Equals(race.Id))
+        //             {
+        //                 return NotFound();
+        //             }
+        //             else
+        //             {
+        //                 throw;
+        //             }
+        //         }
+        //         return RedirectToAction(nameof(Index));
+        //     }
+        //     return View("RaceEdit");
+        // }
+//------------------------------------------
+        // // GET: Races/Delete/5
+        // public ActionResult Delete(int? id){
+        //     if (id == null){
+        //         return NotFound();
+        //     }
+
+        //     var race = await _dbContext.Races
+        //         .FirstOrDefaultAsync(m => m.Id == id);
+        //     if (race == null)
+        //     {
+        //         return NotFound();
+        //     }
+
+        //     return View("DeleteRace");
+        // }
+
+        // // POST: Races/Delete/5
+        // [HttpPost]
+        // [ValidateAntiForgeryToken]
+        // public async Task<IActionResult> DeleteConfirmed(int id){
+        //     var race = await _dbContext.Races.FindAsync(id);
+        //     _dbContext.Races.Remove(race);
+        //     await _dbContext.SaveChangesAsync();
+        //     return RedirectToAction(nameof(Index));
+        // }
 }

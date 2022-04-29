@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Mes courses";
-    ViewBag.Toto = "lol";
+    ViewBag.Toto = " your own race";
     
 }
 
@@ -20,9 +20,9 @@
             <th>
                 Race Name
             </th>
-            <th>
+            @* <th>
                 Date
-            </th>
+            </th> *@
             <th>
                 EventBeginning
             </th>
@@ -41,9 +41,9 @@
             <th>
                 RestrictedAge
             </th>
-            <th>
+            @* <th>
                 Result
-            </th>
+            </th> *@
         </tr>
     </thead>
     <tbody>
@@ -82,7 +82,7 @@
                 @Html.DisplayFor(modelItem => item.Result)
             </td> *@
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
@@ -90,4 +90,3 @@
 }
     </tbody>
 </table>
-((byte)

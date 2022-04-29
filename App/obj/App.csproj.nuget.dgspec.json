@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj": {}
+    "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj": {
+    "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
+        "projectPath": "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\App.csproj",
         "packagesPath": "C:\\Users\\AUGIER de MOUSSAC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\obj\\",
+        "outputPath": "C:\\Users\\AUGIER de MOUSSAC\\Desktop\\Git framework Web\\Epic_Race_Events\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AUGIER de MOUSSAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,11 +40,27 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

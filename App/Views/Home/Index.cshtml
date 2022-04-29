@@ -1,8 +1,96 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@{
+    
+}
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <h1 class="display-4" color="blue">Welcome to</h1>
+    <div class="text-center"><h1 class="display-4" color="blue">Epic Race Events</h1></div>
+    @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <div class="text-center"><div style="width:30%;">
+        <br><br><br>
+        <small class="text-muted">Time before Race 1</small>
+        <div class="alert alert-danger" role="alert">
+            <p class="lead" id="demo"></p>
+        </div>
+    </div></div>
+        <script lang="">
+            var countDownDate = new Date("May 5, 2022 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+            }, 1000);
+        </script>
+    <br><br>
+    <table style="width:100%; margin:30px auto; border-collapse:collapse;">
+        <tr style="background-color:#1c87c9; color:#fff;">
+            <th></th>
+            <th>Id</th>
+            <th>Race Name</th>
+            <th>EventBeginning</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>MaxParticipant</th>
+            <th>Picture</th>
+            <th>Restricted Age</th>
+        </tr>
+        <tr >
+            <th style="background-color:#1c87c9; color:#fff;">Race 1</th>
+            <td style="background-color:lightgrey;border: 1px solid black;">4</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">Formula 1</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">2022-05-05 15:37:25</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">20,1</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">12,4</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">4</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">https://www.at-languagesolutions.com/fr/wp-content/uploads/2016/06/http-1.jpg</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">16</td>
+        </tr>
+        <tr >
+            <th style="background-color:#1c87c9; color:#fff;">Race 2</th>
+            <td style="background-color:lightgrey;border: 1px solid black;">1</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">Street Race</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">2022-05-12 12:05:00.00</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">10,21</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">13,11</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">6</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">https://www.at-languagesolutions.com/fr/wp-content/uploads/2016/06/http-1.jpg</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">16</td>
+        </tr>
+        <tr >
+            <th style="background-color:#1c87c9; color:#fff;">Race 3</th>
+            <td style="background-color:lightgrey;border: 1px solid black;">6</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">Mario Kart</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">2022-05-19 19:19:00.00</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">19,9</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">5,19</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">19</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">https://www.at-languagesolutions.com/fr/wp-content/uploads/2016/06/http-1.jpg</td>
+            <td style="background-color:lightgrey;border: 1px solid black;">59</td>
+        </tr>
+    </table>
 </div>

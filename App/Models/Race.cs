@@ -7,6 +7,9 @@ namespace App.Models
         public int Id { get; set; }
 
         public string Name { get; set; }
+
+        // ajout ligne en dessous
+        [DataType(DataType.Date)]
         public DateTime EventDate { get; set; }
 
         // public TimeSpan EventBeginning { get; set; }

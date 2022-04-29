@@ -13,7 +13,8 @@ namespace App.Models
         [Required]
         public DateOnly Birthday { get; set; }
         [Required]
-        public MailAddress? Email  { get; set; }
+        // public MailAddress? Email  { get; set; }
+        public string? Email  { get; set; }
         public string? Password  { get; set; }
     }
 }
