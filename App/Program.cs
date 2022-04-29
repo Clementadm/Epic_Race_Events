@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(
     dbContextOptions => dbContextOptions
     .UseMySql(connectionString, serverVersion)
     .LogTo(Console.Write, LogLevel.Information)
+    .UseLazyLoadingProxies()
     .EnableSensitiveDataLogging()
     .EnableDetailedErrors()
 );
@@ -71,13 +72,19 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "raceList",
+    defaults: new {controller = "Races", action = "List"},
+    pattern: "/races");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-using (var scope = app.Services.CreateScope())
+/*using (var scope = app.Services.CreateScope())
 {
     scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.EnsureCreated();
-}
+    scope.ServiceProvider.GetRequiredService<AppDbContext>().Seed();
+}*/
 
 app.MapRazorPages();
 

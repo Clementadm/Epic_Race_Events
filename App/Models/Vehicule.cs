@@ -2,8 +2,9 @@ namespace App.Models;
 
 public class Vehicule
 {
-    public int id {get; set;}
-    public string name { get; set; }
-    public List<Categorie> categories { get; set; }
-    public int niveauDePuissance { get; set; }
+    public int ID {get; set;}
+    public string Name { get; set; }
+    public virtual List<Categorie> Categories { get; set; }
+    public int NiveauDePuissance { get; set; }
+    public int AnneeDeContruction { get; set; }
 }
